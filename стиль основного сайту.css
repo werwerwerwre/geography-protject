@@ -1,0 +1,36 @@
+h1{
+    font-size: 100px ;
+  }
+   h2{
+    font-size: 50px ;
+
+    color: rgb(28, 0, 119);
+    cursor: pointer;
+
+  }
+  p{
+    font-size: 20px ;
+
+  }
+  #info {
+    display: none ;
+    margin-top: 50px;
+  }
+  #tab {
+    display: none ;
+    margin-top: 50px;
+  }
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
